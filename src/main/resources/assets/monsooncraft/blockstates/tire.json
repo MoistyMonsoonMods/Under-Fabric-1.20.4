@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "monsooncraft:block/tire"
+    },
+    "type=double": {
+      "model": "monsooncraft:block/tire_double"
+    },
+    "type=top": {
+      "model": "monsooncraft:block/tire_top"
+    }
+  }
+}

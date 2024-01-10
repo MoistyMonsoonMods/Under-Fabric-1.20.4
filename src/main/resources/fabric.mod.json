@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "monsooncraft",
+	"version": "${version}",
+	"name": "MonsoonCraft",
+	"description": "A bunch of wacky additions!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/monsooncraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.moistymonsoon.monsooncraft.MonsoonCraft"
+		],
+		"client": [
+			"net.moistymonsoon.monsooncraft.MonsoonCraftClient"
+		],
+		"fabric-datagen": [
+			"net.moistymonsoon.monsooncraft.MonsoonCraftDataGenerator"
+		],
+		"terrablender": [
+			"net.moistymonsoon.monsooncraft.world.biome.ModTerrablenderAPI"
+		]
+	},
+	"mixins": [
+		"monsooncraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.2",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

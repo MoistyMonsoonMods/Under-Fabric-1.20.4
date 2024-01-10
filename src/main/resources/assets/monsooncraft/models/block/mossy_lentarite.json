@@ -1,0 +1,13 @@
+
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "monsooncraft:block/mossy_lentarite_side",
+    "down": "monsooncraft:block/lentarite",
+    "up": "minecraft:block/moss_block",
+    "north": "monsooncraft:block/mossy_lentarite_side",
+    "east": "monsooncraft:block/mossy_lentarite_side",
+    "south": "monsooncraft:block/mossy_lentarite_side",
+    "west": "monsooncraft:block/mossy_lentarite_side"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "variants": {
+    "flower=air": {
+      "model": "monsooncraft:block/tin_can"
+    },
+    "flower=oak_sapling": {
+      "model": "monsooncraft:block/tinned_oak_sapling"
+    },
+    "flower=spruce_sapling": {
+      "model": "monsooncraft:block/tinned_spruce_sapling"
+    },
+    "flower=birch_sapling": {
+      "model": "monsooncraft:block/tinned_birch_sapling"
+    },
+    "flower=jungle_sapling": {
+      "model": "monsooncraft:block/tinned_jungle_sapling"
+    },
+    "flower=acacia_sapling": {
+      "model": "monsooncraft:block/tinned_acacia_sapling"
+    },
+    "flower=dark_oak_sapling": {
+      "model": "monsooncraft:block/tinned_dark_oak_sapling"
+    },
+    "flower=fern": {
+      "model": "monsooncraft:block/tinned_fern"
+    },
+    "flower=dandelion": {
+      "model": "monsooncraft:block/tinned_dandelion"
+    },
+    "flower=poppy": {
+      "model": "monsooncraft:block/tinned_poppy"
+    },
+    "flower=blue_orchid": {
+      "model": "monsooncraft:block/tinned_blue_orchid"
+    },
+    "flower=allium": {
+      "model": "monsooncraft:block/tinned_allium"
+    },
+    "flower=azure_bluet": {
+      "model": "monsooncraft:block/tinned_azure_bluet"
+    },
+    "flower=bamboo": {
+      "model": "monsooncraft:block/tinned_bamboo"
+    },
+    "flower=red_tulip": {
+      "model": "monsooncraft:block/tinned_red_tulip"
+    },
+    "flower=orange_tulip": {
+      "model": "monsooncraft:block/tinned_orange_tulip"
+    },
+    "flower=white_tulip": {
+      "model": "monsooncraft:block/tinned_white_tulip"
+    },
+    "flower=pink_tulip": {
+      "model": "monsooncraft:block/tinned_pink_tulip"
+    },
+    "flower=oxeye_daisy": {
+      "model": "monsooncraft:block/tinned_oxeye_daisy"
+    },
+    "flower=cornflower": {
+      "model": "monsooncraft:block/tinned_cornflower"
+    },
+    "flower=lily_of_the_valley": {
+      "model": "monsooncraft:block/tinned_lily_of_the_valley"
+    },
+    "flower=wither_rose": {
+      "model": "monsooncraft:block/tinned_wither_rose"
+    },
+    "flower=red_mushroom": {
+      "model": "monsooncraft:block/tinned_red_mushroom"
+    },
+    "flower=brown_mushroom": {
+      "model": "monsooncraft:block/tinned_brown_mushroom"
+    },
+    "flower=dead_bush": {
+      "model": "monsooncraft:block/tinned_dead_bush"
+    },
+    "flower=cactus": {
+      "model": "monsooncraft:block/tinned_cactus"
+    },
+    "flower=crimson_fungus": {
+      "model": "monsooncraft:block/tinned_crimson_fungus"
+    },
+    "flower=warped_fungus": {
+      "model": "monsooncraft:block/tinned_warped_fungus"
+    },
+    "flower=crimson_roots": {
+      "model": "monsooncraft:block/tinned_crimson_roots"
+    },
+    "flower=warped_roots": {
+      "model": "monsooncraft:block/tinned_warped_roots"
+    },
+    "flower=cherry_sapling": {
+      "model": "monsooncraft:block/tinned_cherry_sapling"
+    },
+    "flower=torchflower": {
+      "model": "monsooncraft:block/tinned_torchflower"
+    },
+    "flower=fiddlewort": {
+      "model": "monsooncraft:block/tinned_fiddlewort"
+    }
+  }
+}

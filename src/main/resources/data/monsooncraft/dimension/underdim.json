@@ -1,0 +1,11 @@
+{
+  "type": "monsooncraft:underdim_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "monsooncraft:underdimnoise",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "monsooncraft:flush_cavern"
+    }
+  }
+}

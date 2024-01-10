@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "monsooncraft:scrap_rubber"
+    }
+  },
+  "result": {
+    "item": "monsooncraft:scrap_rubber_block"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "monsooncraft:block/pipe_rusted",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "monsooncraft:block/pipe_rusted"
+    },
+    "axis=z": {
+      "model": "monsooncraft:block/pipe_rusted",
+      "x": 90
+    }
+  }
+}

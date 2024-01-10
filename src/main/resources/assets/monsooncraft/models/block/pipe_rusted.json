@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "monsooncraft:block/pipe_rusted_top",
+    "side": "monsooncraft:block/pipe_rusted"
+  }
+}

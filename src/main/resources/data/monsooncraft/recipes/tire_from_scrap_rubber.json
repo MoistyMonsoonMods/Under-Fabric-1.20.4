@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "monsooncraft:scrap_rubber"
+    },
+    "@": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "monsooncraft:tire",
+    "count": 2
+  }
+}

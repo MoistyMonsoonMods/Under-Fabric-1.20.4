@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "monsooncraft:scrap_rubber_block"
+    }
+  ],
+  "result": {
+    "item": "monsooncraft:scrap_rubber",
+    "count": 9
+  }
+}

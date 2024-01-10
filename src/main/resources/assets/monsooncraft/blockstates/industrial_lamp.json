@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "monsooncraft:block/industrial_lamp",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "monsooncraft:block/industrial_lamp",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "monsooncraft:block/industrial_lamp",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "monsooncraft:block/industrial_lamp",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "monsooncraft:block/industrial_lamp"
+    },
+    "facing=west": {
+      "model": "monsooncraft:block/industrial_lamp",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

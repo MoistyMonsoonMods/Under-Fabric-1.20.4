@@ -1,0 +1,6 @@
+{
+  "parent": "monsooncraft:block/tin_can_cross",
+  "textures": {
+    "plant": "minecraft:block/oxeye_daisy"
+  }
+}

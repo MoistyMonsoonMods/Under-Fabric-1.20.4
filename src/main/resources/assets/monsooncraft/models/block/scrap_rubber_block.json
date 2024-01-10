@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "monsooncraft:block/scrap_rubber_block"
+  }
+}
