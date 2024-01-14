@@ -19,6 +19,7 @@ import net.minecraft.util.math.RotationPropertyHelper;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
+import net.moistymonsoon.monsooncraft.MonsoonCraft;
 import net.moistymonsoon.monsooncraft.properties.FlowerProperty;
 import net.moistymonsoon.monsooncraft.util.Flower;
 
@@ -95,7 +96,7 @@ public class TemplatePotBlock extends Block {
         boolean doesNotHoldFlower = flowerIn == Blocks.AIR;
         potIsEmpty = (worldIn.getBlockState(pos).get(FLOWER)).block() == Blocks.AIR;
         if (doesNotHoldFlower != potIsEmpty) {
-            if (potIsEmpty) {
+            if (potIsEmpty) { MonsoonCraft.LOGGER.info("TEST");
                 Identifier rl = Registries.BLOCK.getId(flowerIn);
                 worldIn.setBlockState(pos, this.getDefaultState().with(FLOWER, (rl.getNamespace().equals("monsooncraft") ? Flower.FLOWERS
                         .get("monsooncraft_" + rl.getPath()) : Flower.FLOWERS.get(rl.getPath()))), 3);

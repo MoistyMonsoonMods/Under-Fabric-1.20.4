@@ -31,19 +31,19 @@ public class ModBlocks {
             new TireBlock(FabricBlockSettings.copyOf(Blocks.WARPED_SLAB).nonOpaque()));
     public static final Block INDUSTRIAL_LAMP = registerBlock("industrial_lamp",
             new LampBlock(FabricBlockSettings.copyOf(Blocks.END_ROD).nonOpaque()));
-    public static final Block TIN_CAN_BLOCK = registerBlock("tin_can_block",
-            new TemplatePotBlock(AbstractBlock.Settings.copy(Blocks.FLOWER_POT).nonOpaque()));
+
 
     public static final Block FIDDLEWORT = registerBlock("fiddlewort",
             new FlowerBlock(StatusEffects.ABSORPTION, 10,
                     FabricBlockSettings.copyOf(Blocks.CORNFLOWER).nonOpaque().noCollision()));
     public static final Block POTTED_FIDDLEWORT = registerBlock("potted_fiddlewort",
             new FlowerPotBlock(FIDDLEWORT, FabricBlockSettings.copyOf(Blocks.POTTED_CORNFLOWER).nonOpaque()));
-    public static final Block TINNED_FIDDLEWORT = registerBlock("tinned_fiddlewort",
-            new FlowerPotBlock(FIDDLEWORT, FabricBlockSettings.copyOf(ModBlocks.POTTED_FIDDLEWORT).nonOpaque()));
 
     public static final Block HORSETAIL = registerBlock("horsetail",
             new TallFlowerBlock(FabricBlockSettings.copyOf(Blocks.ROSE_BUSH).nonOpaque().noCollision()));
+
+    public static final Block TIN_CAN_BLOCK = registerBlock("tin_can_block",
+            new TemplatePotBlock(AbstractBlock.Settings.copy(Blocks.FLOWER_POT).nonOpaque()));
 
 
     private static Block registerBlock(String name, Block block) {

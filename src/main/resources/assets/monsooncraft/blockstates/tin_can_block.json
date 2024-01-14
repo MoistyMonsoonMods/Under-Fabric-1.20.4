@@ -98,6 +98,9 @@
     },
     "flower=fiddlewort": {
       "model": "monsooncraft:block/tinned_fiddlewort"
+    },
+    "flower=horsetail": {
+      "model": "monsooncraft:block/tinned_horsetail"
     }
   }
 }

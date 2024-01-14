@@ -3,6 +3,7 @@ package net.moistymonsoon.monsooncraft.util;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Items;
+import net.moistymonsoon.monsooncraft.MonsoonCraft;
 import net.moistymonsoon.monsooncraft.block.ModBlocks;
 
 
@@ -42,5 +43,11 @@ public class ModUtil {
             Blocks.AZALEA,
             Blocks.FLOWERING_AZALEA,
             Blocks.BAMBOO,
-            ModBlocks.FIDDLEWORT};
+            ModBlocks.FIDDLEWORT,
+            ModBlocks.HORSETAIL};
+
+    public static void registerModUtil() {
+        MonsoonCraft.LOGGER.info("Registering Mod Util for " + MonsoonCraft.MOD_ID);
+    }
 }
+
