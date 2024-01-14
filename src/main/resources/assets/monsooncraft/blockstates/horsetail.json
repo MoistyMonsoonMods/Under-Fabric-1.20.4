@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "monsooncraft:block/horsetail_bottom"
+    },
+    "half=upper": {
+      "model": "monsooncraft:block/horsetail_top"
+    }
+  }
+}

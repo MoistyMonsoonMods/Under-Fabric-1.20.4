@@ -2,7 +2,9 @@ package net.moistymonsoon.monsooncraft.util;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.Items;
 import net.moistymonsoon.monsooncraft.block.ModBlocks;
+
 
 public class ModUtil {
     public static final Block[] PLANTS = new Block[]{Blocks.OAK_SAPLING,
@@ -40,5 +42,5 @@ public class ModUtil {
             Blocks.AZALEA,
             Blocks.FLOWERING_AZALEA,
             Blocks.BAMBOO,
-            };
+            ModBlocks.FIDDLEWORT};
 }

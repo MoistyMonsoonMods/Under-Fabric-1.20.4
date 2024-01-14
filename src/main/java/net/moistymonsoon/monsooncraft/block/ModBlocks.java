@@ -40,7 +40,10 @@ public class ModBlocks {
     public static final Block POTTED_FIDDLEWORT = registerBlock("potted_fiddlewort",
             new FlowerPotBlock(FIDDLEWORT, FabricBlockSettings.copyOf(Blocks.POTTED_CORNFLOWER).nonOpaque()));
     public static final Block TINNED_FIDDLEWORT = registerBlock("tinned_fiddlewort",
-            new FlowerPotBlock(FIDDLEWORT, FabricBlockSettings.copyOf(Blocks.POTTED_CORNFLOWER).nonOpaque()));
+            new FlowerPotBlock(FIDDLEWORT, FabricBlockSettings.copyOf(ModBlocks.POTTED_FIDDLEWORT).nonOpaque()));
+
+    public static final Block HORSETAIL = registerBlock("horsetail",
+            new TallFlowerBlock(FabricBlockSettings.copyOf(Blocks.ROSE_BUSH).nonOpaque().noCollision()));
 
 
     private static Block registerBlock(String name, Block block) {

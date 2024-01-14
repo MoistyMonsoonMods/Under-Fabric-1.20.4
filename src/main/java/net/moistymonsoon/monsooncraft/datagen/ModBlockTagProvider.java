@@ -27,6 +27,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.FLOWERS)
                 .add(ModBlocks.FIDDLEWORT);
+
+        getOrCreateTagBuilder(BlockTags.TALL_FLOWERS)
+                .add(ModBlocks.HORSETAIL);
     }
 
 }

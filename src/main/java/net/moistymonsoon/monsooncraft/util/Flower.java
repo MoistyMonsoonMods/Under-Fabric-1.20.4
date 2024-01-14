@@ -1,8 +1,10 @@
 package net.moistymonsoon.monsooncraft.util;
 
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Collection;
@@ -39,6 +41,11 @@ public record Flower(String name, Block block) implements Comparable<Flower> {
         FLOWERS.put("air", new Flower("air", Blocks.AIR));
         for (Block block : ModUtil.PLANTS) {
             FLOWERS.put(Registries.BLOCK.getId(block).getPath(), new Flower(Registries.BLOCK.getId(block).getPath(), block));
+        }
+        if (FabricLoader.getInstance().getAllMods().contains("monsooncraft")) {
+            for (Block block : UnderCompat.UNDER_PLANTS) {
+                FLOWERS.put("monsooncraft_" + Registries.BLOCK.getId(block).getPath(), new Flower("monsooncraft_" + Registries.BLOCK.getId(block).getPath(),block));
+            }
         }
 
         NONE = FLOWERS.get("air");

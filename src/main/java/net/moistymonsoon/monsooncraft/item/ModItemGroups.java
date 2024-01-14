@@ -27,6 +27,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TIN_CAN_BLOCK);
 
                         entries.add(ModBlocks.FIDDLEWORT);
+                        entries.add(ModBlocks.HORSETAIL);
 
                     }).build());
 
